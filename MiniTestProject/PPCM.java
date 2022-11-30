@@ -1,4 +1,6 @@
-class Main{
+package MiniTestProject;
+
+class PPCM{
     public static int ppcm(int a, int b){
         int ppcm = 0;
         int i = 1;
@@ -9,11 +11,5 @@ class Main{
             i++;
         }
         return ppcm;
-    }
-    
-    public static void main(String[] args){
-        int a = 12;
-        int b = 18;
-        System.out.println(ppcm(a,b));        
     }
 }
